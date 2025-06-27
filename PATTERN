@@ -1,0 +1,118 @@
+##FIRST PATTERN CODE
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        int n= sc.nextInt();
+        int i=1;
+        while (i<=n){
+            int j =1;
+            while (j<=n){
+                System.out.print(j);
+                j=j+1;
+            }
+            System.out.println();
+            i=i+1;
+        }
+    }
+}
+**OUTPUT**
+4
+1234
+1234
+1234
+1234
+#SECOND CODE
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        int n= sc.nextInt();
+        int i=1;
+        while (i<=n){
+            int j =1;
+            while (j<=n){
+                System.out.print( n-j+1);
+                j=j+1;
+
+            }
+            System.out.println();
+            i=i+1;
+        }
+    }
+}
+OUTPUT
+
+4
+4321
+4321
+4321
+4321
+
+THIRD CODE
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        int n= sc.nextInt();
+        int i=1;
+        int count =1;
+
+        while (i<=n){
+            int j =1;
+            while (j<=n){
+                System.out.print( count);
+                j=j+1;
+                count++;
+            }
+            System.out.println();
+            i=i+1;
+           
+        }
+    }
+}
+OUTPUT
+3
+123
+456
+789
+###4th
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        int n= sc.nextInt();
+        int i=1;
+
+
+        while (i<=n){
+            int j =1;
+            while (j<=i){
+                System.out.print( "*");
+
+                j=j+1;
+
+            }
+            System.out.println();
+            i=i+1;
+
+        }
+    }
+}
+OUTPUT
+10
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+##5THS
