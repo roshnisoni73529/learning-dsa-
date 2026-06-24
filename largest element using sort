@@ -1,0 +1,19 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Arrays;
+class solution {
+    public static int sortArr(int []arr){
+        Arrays.sort(arr);
+        return arr[arr.length-1];
+        
+    }
+}
+class Main {
+    public static void main(String[] args) {
+    int [] arr1={2,4,56,7,39};
+    int [] arr2={34,223,4,22,1};
+    System.out.println(solution.sortArr(arr1));
+    System.out.println(solution.sortArr(arr2));
+    
+    }
+}
